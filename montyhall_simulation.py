@@ -139,7 +139,7 @@ class Simulation:
         plt.scatter(iterations, self.switch_losstimes, label="Losses when switching")
         plt.scatter(iterations, self.non_switch_losstimes, label="Losses when not switching")
         plt.xlabel("Iterations")
-        plt.ylabel("Times won")
+        plt.ylabel("Times lost")
         plt.legend()
         plt.show()
 
